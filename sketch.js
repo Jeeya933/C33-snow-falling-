@@ -35,10 +35,11 @@ function keyPressed(){
   if(keyCode === 77){
     girl.x = girl.x + 20;
 }
-}
-if(keyCode === 75){
+  if(keyCode === 75){
   girl.x = girl.x - 20;
 
   snow1.display();
 }
+}
+
 
